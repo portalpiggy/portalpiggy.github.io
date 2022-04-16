@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Bellota;
+    src: url(Bellota-Regular.ttf);
+}
+
+body {
+    background-color: #a99bf3;
+}
+
+h1 {
+    padding-top: 4vh;
+    text-align: center;
+    font-family: Bellota;
+    color: #fff;
+}
+
+ul {
+    background-color: #ccc;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    background-color: #000;
+    padding: 8px;
+}
