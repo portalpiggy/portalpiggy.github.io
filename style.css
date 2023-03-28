@@ -3,6 +3,11 @@
     src: url(Bellota-Regular.ttf);
 }
 
+@font-face {
+    font-family: DeliciousHandrawn;
+    src: url(DeliciousHandrawn-Regular.ttf);
+}
+
 body {
     background-color: #a99bf3;
 }
@@ -17,7 +22,6 @@ h1 {
 ul {
     background-color: transparent;
     list-style-type: none;
-    margin: auto;
     width: 100%;
     padding: 0px;
     text-align: center;
@@ -29,9 +33,10 @@ li {
 
 a {
     background-color: #fff;
-    color: #000;
+    color: #a99bf3;
     padding: 8px;
     border-radius: 6px;
     text-decoration: none;
     font-size: 32px;
+    font-family: DeliciousHandrawn;
 }
