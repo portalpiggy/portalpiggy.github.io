@@ -13,5 +13,19 @@
             </ul> 
         </div> 
         <h1>homepage of the gay fox (lia portalpiggy)</h1>
+        <div id="twitch-embed"></div>
+        
+        <!-- Load the Twitch embed JavaScript file -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+        <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+                width: 1400,
+                height: 720,
+                channel: "portalpiggy"
+                // Only needed if this page is going to be embedded on other websites
+            });
+        </script>
     </body>
 </html>

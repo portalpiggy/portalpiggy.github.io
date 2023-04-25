@@ -19,6 +19,10 @@ h1 {
     color: #fff;
 }
 
+#twitch-embed {
+    text-align: center;
+}
+
 ul {
     background-color: transparent;
     list-style-type: none;
